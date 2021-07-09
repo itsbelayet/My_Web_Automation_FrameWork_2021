@@ -46,18 +46,18 @@ public class CreateAccountPage {
         softAssert.assertEquals(reenterPasswordLabel.getText(), "Re-enter password");
         ExtentTestManager.log("reenter password label is displayed", LOGGER);
 
-        softAssert.assertEquals(emailLabel.getText(), "Mobile number or email");
+        softAssert.assertEquals(emailLabel.getText(), "Email");
         ExtentTestManager.log("email label is displayed", LOGGER);
 
         softAssert.assertAll();
     }
 
-    public void FillAllTheFieldLabels() {
-        typeInEmailField("test user");
-        typeInNameField("test user");
-        typeInPasswordField("test user");
-        typeInReEnterPasswordField("test user");
-    }
+//    public void FillAllTheFieldLabels() {
+//        typeInEmailField("test user");
+//        typeInNameField("test user");
+//        typeInPasswordField("test user");
+//        typeInReEnterPasswordField("test user");
+//    }
 
     public void typeInNameField(String data) {
         nameField.sendKeys(data);

@@ -56,8 +56,19 @@ public class SearchTests extends TestBase {
         ExtentTestManager.log("Click on the search button", LOGGER);
     }
 
+    //Testing
+//    @Test(enabled = true, dataProviderClass = DataProvidersForTest.class, dataProvider = "getUserForCreateAccountTest",
+//            groups = "regression")
+//    public void validateLogin(String userName) {
+//        homePage.typeOnSearchBar(bookName);
+//        ExtentTestManager.log("Looking for : " + bookName, LOGGER);
+//        homePage.clickOnSearchButton();
+//        ExtentTestManager.log("Click on the search button", LOGGER);
+//    }
+
+
     // Using PageFactory
-    @Test(enabled = true, groups = "")
+    @Test(enabled = false, groups = "")
     public void searchForBooks() {
         homePage.typeOnSearchBar("dslr camera");
         ExtentTestManager.log("Searching dslr camera", LOGGER);
@@ -74,7 +85,7 @@ public class SearchTests extends TestBase {
     }
 
     // Using Database
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void validateUserBeingAbleToSearchForAnItemFromDatabase() throws SQLException {
         String query = "select * from testdata;";
         ArrayList<String> datas = ConnectDB.connectToDbAndGetData(query, "bookName");

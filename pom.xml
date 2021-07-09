@@ -12,6 +12,10 @@
         <module>generic</module>
         <module>ebay</module>
         <module>amazon</module>
+        <module>google</module>
+        <module>google</module>
+        <module>facebook</module>
+        <module>yahoo</module>
     </modules>
 
     <properties>

@@ -1,9 +1,5 @@
 package com.ebay.tests;
 
-import com.amazon.data.DataProvidersForTest;
-import com.amazon.pages.CreateAccountPage;
-import com.amazon.pages.HomePage;
-import com.amazon.pages.SignInPage;
 import com.ebay.data.DataProviders;
 import com.ebay.pages.EbayAccountPage;
 import com.ebay.pages.EbayHomePage;

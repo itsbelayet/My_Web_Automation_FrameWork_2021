@@ -245,5 +245,4 @@ public class TestBase {
         driver.findElement(By.xpath(xpath)).sendKeys(data);
     }
 
-
 }

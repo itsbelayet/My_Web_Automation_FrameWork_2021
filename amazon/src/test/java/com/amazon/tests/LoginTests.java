@@ -30,13 +30,11 @@ public class LoginTests extends TestBase {
 
         createAccountPage.validateTheFieldLabelsAreDisplayed();
 
-        createAccountPage.typeInNameField(userName);
-        sleepFor(3);
-        createAccountPage.typeInEmailField(email);
-        sleepFor(3);
-        createAccountPage.typeInPasswordField(password);
-        sleepFor(3);
-        createAccountPage.typeInReEnterPasswordField(password);
         sleepFor(5);
+        createAccountPage.typeInNameField(userName);
+        createAccountPage.typeInEmailField(email);
+        createAccountPage.typeInPasswordField(password);
+        createAccountPage.typeInReEnterPasswordField(password);
+
     }
 }

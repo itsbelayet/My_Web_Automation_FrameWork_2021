@@ -47,6 +47,12 @@ public class HomePage {
         Select select=new Select(dropdownMenu);
         select.selectByVisibleText("Music");
     }
+    /*
+            WebElement dropdownMenu = driver.findElement(By.id("gh-cat"));
+        Select select = new Select(dropdownMenu);
+        select.selectByVisibleText("Music");
+     */
+
     @FindBy(id="gh-la")
     private WebElement logo;
     public void logoDisplay(){

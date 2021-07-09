@@ -1,6 +1,6 @@
 package com.ebay.tests;
 
-import com.amazon.pages.HomePage;
+
 import com.pnt.base.TestBase;
 import com.pnt.base.report.ExtentTestManager;
 import org.apache.log4j.Logger;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class EbayTests_Old extends TestBase {
 
-    private static Logger LOGGER = Logger.getLogger(EbayTests_Old.class);
+    /*private static Logger LOGGER = Logger.getLogger(EbayTests_Old.class);
 
     @Test(enabled = false)
     public void searchBox() {
@@ -46,7 +46,7 @@ public class EbayTests_Old extends TestBase {
         homePage.findText();
         sleepFor(2);
         ExtentTestManager.log("Element properly Displayed", LOGGER);
-    }
+    }*/
 
 /*
 Convert it later:
